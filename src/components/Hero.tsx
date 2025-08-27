@@ -29,13 +29,10 @@ const Hero: React.FC = () => {
         </div>
 
         <div className="animate-fade-in-up-delay-2 flex justify-center space-x-6">
-          <a href="#" className="text-gray-400 hover:text-white transition-colors duration-200 transform hover:scale-110">
+          <a href="https://github.com/sekumane" className="text-gray-400 hover:text-white transition-colors duration-200 transform hover:scale-110">
             <Github size={24} />
           </a>
-          <a href="#" className="text-gray-400 hover:text-white transition-colors duration-200 transform hover:scale-110">
-            <Linkedin size={24} />
-          </a>
-          <a href="#" className="text-gray-400 hover:text-white transition-colors duration-200 transform hover:scale-110">
+          <a href="mailto:enqryptedd@gmail.com" className="text-gray-400 hover:text-white transition-colors duration-200 transform hover:scale-110">
             <Mail size={24} />
           </a>
         </div>
