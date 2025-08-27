@@ -20,12 +20,9 @@ const Hero: React.FC = () => {
         </div>
 
         <div className="animate-fade-in-up-delay flex flex-col sm:flex-row gap-4 justify-center mb-12">
-          <button className="bg-white text-black px-8 py-3 rounded-full font-medium hover:bg-gray-200 transition-all duration-200 transform hover:scale-105">
+          <a href="#projects" className="bg-white text-black px-8 py-3 rounded-full font-medium hover:bg-gray-200 transition-all duration-200 transform hover:scale-105">
             View My Work
-          </button>
-          <button className="border border-white/20 text-white px-8 py-3 rounded-full font-medium hover:bg-white/10 transition-all duration-200 transform hover:scale-105">
-            Get In Touch
-          </button>
+          </a>
         </div>
 
         <div className="animate-fade-in-up-delay-2 flex justify-center space-x-6">
